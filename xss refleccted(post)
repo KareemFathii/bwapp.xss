@@ -1,0 +1,13 @@
+First i tried to input any thing in the input field to see the result 
+
+it prints the name which i written in the input field 
+
+then i checked the inspect to see where it written
+
+and try to inject this script
+
+<script> alert"xss" </script> in 1 input field from the 2 and it gives me error that i must fill the 2 input fields 
+
+so i decided to fill in the first 1 < script > alert() and in the second one </script>
+
+and it works and try to inject another payloads .
