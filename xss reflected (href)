@@ -1,0 +1,6 @@
+first i started with putting any name  like kareem  to see what is the result 
+and it displays all movies and print hello kareem vote for a movie 
+i decided to open the inspect and see where was my name written in the html 
+and it has been written between <p> </p> so i decided if i want to inject a script code to close the <p> first 
+i write in the input field : </p> <script> alert("xss") </script> 
+it works and i have been injected a script .
