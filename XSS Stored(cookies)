@@ -1,0 +1,7 @@
+first i tried to choose one of the movie type like horror and like 
+and it prints a thankful message only there is no input field to use it in the injection 
+and i started to see the cookies in the inspect and found that in the cookie there is a movie_genre: type which i choose 
+i tried to inject a different type in the url like comedy and it work and stored in the cookies 
+and i decided to open burp suit to track and analyze the http request , insert and store in cookie
+and i changed the movie type .
+it works and i think that i could store what ever i want in the cookie as a parameter in the movie-genre .
