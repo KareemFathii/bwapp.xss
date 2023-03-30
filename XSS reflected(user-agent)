@@ -1,0 +1,8 @@
+There is no input field can i inject a script 
+but displays Your User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+i thought to open inspect to found anything but was useless 
+i decided to open burpsuit to intercept and see the http request 
+there is input field in the request named user-agent and i delete the Mozilla/5.0.........
+and write my script and forwarded the request 
+i wrote : <script>alert("xss")</script> 
+it works and excute the alert .
